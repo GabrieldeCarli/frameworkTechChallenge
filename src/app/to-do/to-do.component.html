@@ -1,0 +1,21 @@
+<div class="wrap">
+  <div  class="margin20px" *ngFor="let data of dataSource">
+    <mat-card class="example-card row">
+      <mat-card-title>{{data.title}}</mat-card-title>
+      <mat-card-content>
+        <div *ngIf="data.completed">
+          <span class="material-icons">
+            thumb_up
+          </span>
+        </div>
+        <div *ngIf="!data.completed">
+          <span class="material-icons">
+            thumb_down
+          </span>
+        </div>
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+

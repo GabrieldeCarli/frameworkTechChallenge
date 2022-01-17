@@ -1,0 +1,13 @@
+.example-card {
+  max-width: 200px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.margin20px {
+  margin:20px ;
+}
